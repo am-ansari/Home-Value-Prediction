@@ -1,1 +1,18 @@
-# Home-Value-Prediction-for-Zillow
+# Home-Value-Prediction
+
+## Executive Summary
+The objective of this project is to help Zillow (a real estate company) to invest in two-bedroom properties New York City, from where they would generate the most profits on short-term rentals. Zillow plans on making their investments through AirBnB. We have been provided with cost data from Zillow, and revenue data from AirBnB (sourced from Kaggle website). We have to analyze the available data and create a visual data narrative to come up with recommendations for Zillow. Our conclusion will help Zillow understand which zip codes to invest in, to make maximum profits from two-bedroom properties.  
+
+## Future Scope 
+ » Due to time and resources constraints, we have not been able to abide by all the clean coding practices. Although Python takes care of a lot of memory management automatically, we could have more efficiently handled memory management through our code. There are also some extensions available in Jupyter Notebook to create table of contents, manage code folding, and write the descriptions in hierarchical formats for better readability. We would do that as an immediate next step if given more time <br>
+» Because of time constraints, we have assumed the median cost of properties in 2017 to be the same in 2019, when Zillow plans to invest. However, we could have estimated median costs in 2019 through ARIMA (autoregressive integrated moving average) model as we have been provided with median costs for each month starting 1996. Time series forecasting would have provided better cost values <br>
+» We have dropped some fields which have textual descriptions and wordy comments for analysis purposes. However, it is essential to incorporate them as qualitative aspects of analysis to make better business decisions after doing quantitative and financial analysis on available data. Sentiment analysis of the customer comments against different amenities and services in the listings would help determine how proximity to convenience stores, museums, public transport, tourist spots, and shopping malls may affect popularity among customers. These analyses when done right, would enable Zillow to remain competitive in the market and increase customer satisfaction levels <br>
+» We would also want to get some data on the crime rates in different zip code neighborhoods to better align the investment decisions. Safety is an important factor to keep in mind while being in the rental business <br>
+» The state of New York is the third largest economy is the United States after California and Texas. New York City and the surrounding New York metropolitan area dominate the economy of the state. Manhattan is the leading center of banking, finance, and communication in the United States and is the location of the famous New York Stock Exchange on Wall Street. This means it is very much in Zillow’s favor to invest in rental properties in New York City. Given the economy of the place, they would potentially get huge returns on their investments if they invest at the right places and maintain good services for customers. It is also worth noting that property prices in New York City has been increasing steadily over the last several years, which allows Zillow to keep exit strategies in place just in case something goes south, and they want to move out of a property which is not doing good <br>
+» New York has around 145 zip codes. The data would be more comprehensive if we had more data points for all zip codes in New York City 
+
+## References 
+1.	copy - Shallow and deep copy operations (n.d.). Retrieved from https://docs.python.org/2/library/copy.html 
+2.	Feature selection (n.d.). Retrieved from https://scikitlearn.org/stable/modules/feature_selection.html 
+3.	Economy of New York (state). (2018, November 30). Retrieved from https://en.wikipedia.org/wiki/Economy_of_New_York_(state) 
+
